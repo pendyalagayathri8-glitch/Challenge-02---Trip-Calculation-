@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+float distance, mileage, fuelprice,fuelrequired,totalcost;
+
+printf("Enter distance (in km): ");
+scanf("%f", &distance);
+
+printf("Enter vehicle mileage (km/l): ");
+scanf("%f", &mileage);
+
+printf("Enter fuelprice (per litre): ");
+scanf("%f", &fuelprice);
+
+ fuelrequired = distance / mileage;
+ totalcost = fuelrequired * fuelprice;
+
+printf("Fuel required =%.2flitres\n", fuel_required);
+printf("Total fuel cost = Rs.%.2f\n", total_cost);
+
+    return 0;
+}
